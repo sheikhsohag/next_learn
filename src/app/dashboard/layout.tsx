@@ -1,8 +1,13 @@
 import React from 'react'
+import Page from './page'
 
-function layout() {
+function layout({children}:any) {
   return (
-    <div>layout dashboard</div>
+    
+    <div>
+      <Page />
+      <div>{children}</div>
+    </div>
   )
 }
 
