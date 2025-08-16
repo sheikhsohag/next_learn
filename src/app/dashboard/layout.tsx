@@ -1,11 +1,10 @@
 import React from 'react'
-import Page from './page'
-
+import Navbar from '@/app/_components/navbar'
 function layout({children}:any) {
   return (
     
     <div>
-      <Page />
+      <Navbar/>
       <div>{children}</div>
     </div>
   )
